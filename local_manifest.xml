@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<remote name="me"
+      fetch="https://github.com/IzumiYouka" />
+<remote name="clang" fetch="https://github.com/kdrag0n"/>
+<remote name="lab" fetch="https://gitlab.com"/>
+
+<project path="device/xiaomi/whyred" name="device_xiaomi_whyred.git" remote="me" revision="eleven" clone-depth="1" />
+<project path="vendor/xiaomi/whyred" name="vendor_xiaomi_whyred.git" remote="me" revision="eleven" clone-depth="1" />
+<project path="kernel/xiaomi/whyred" name="kernel_xiaomi_whyred.git" remote="me" revision="eleven" clone-depth="1" />
+<!-- Clang -->
+<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="lab" revision="master" clone-depth="1"/>
+</manifest>
